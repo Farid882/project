@@ -1,0 +1,107 @@
+.back {
+    margin-top: 170px;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-image: url("../../images/background/globe-and-glasses.jpg");
+  }
+  
+  .back-shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
+
+.contacts-block {
+    height: 555px;
+    width: 930px;
+    background: #F9F9F9;
+    position: relative;
+    left: 26%;
+    top: 30%;
+    border-radius: 15px;
+}
+
+.contacts-title {
+    padding-top: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.contacts-title-x2 {
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.contacts-input {
+    margin-left: 32px;
+    margin-top: 16px;
+    color: #5F5F5F;
+    font-size: 18px;
+    background: #D3D3D3;
+    border-radius: 7px;
+    border: none;
+    width: 870px;
+    height: 41px;
+    padding-left: 13px;
+}
+
+input:focus{outline: none;}
+
+.checkbox {
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 24px;
+    height: 24px;
+    border: 3px solid black;
+}
+
+.checkbox-flex {
+    display: flex;
+}
+
+.checkbox-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+}
+
+.btn-checkbox {
+    width: 870px;
+    height: 61px;
+    background: #007AFF;
+    border-radius: 14px;
+    text-align: center;
+    color: #D3D3D3;
+    border: none;
+    font-size: 19px;
+    margin-left: 28px;
+}
+
+.btn-checkbox:hover {
+    background: #000000;
+    transition: all 0.50s ease-in-out;
+    color: azure;
+}
+
+.checkbox-text-b {
+    color: #007AFF;
+    font-weight: black;
+}
+
+.text {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}

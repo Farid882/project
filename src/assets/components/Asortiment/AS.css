@@ -1,0 +1,135 @@
+.asort {
+    background: #73B5FF;
+
+
+    height: 900px;
+}
+
+.title {
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: center;
+position: fixed;
+    
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.service {
+    width: 381px;
+    height: auto !important;
+    justify-content: space-between;
+    background: #409AFF;
+    border-radius: 40px;
+    border: 3px solid #004EA6;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    padding: 10px;
+}
+
+.service-f {
+    display: flex;
+    margin-top: 65px;
+    margin-left: 115px;
+}
+
+.service-y {
+margin-bottom: -255px;
+    margin-top: 300px;
+}
+
+
+
+.service-z {
+    margin-top: 555px;
+    margin-bottom: -350px;
+}
+
+#one {
+    position: absolute;
+    left: 0;
+    margin-left: 58px;
+}
+
+#two {
+    position: absolute;
+    right: 0;
+    margin-right: 115px;
+}
+
+
+
+#three {
+    position: absolute;
+    left: 0;
+    margin-left: 28px;
+
+}
+
+#four {
+    position: absolute;
+    right: 0;
+    margin-right: 28px;
+    }
+    
+    
+
+#five {
+    position: absolute;
+    left: 0;
+    margin-left: 58px;
+}
+
+#six {
+    position: absolute;
+    right: 0;
+    margin-right: 58px;
+}
+
+
+/* button */
+
+.button-black {
+    width: 400px;
+    height: 120px;
+    background: black;
+    border: none;
+    font-size: 29px;
+    font-family: 'Inter', sans-serif;
+    font-family: 400;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.button-black:hover {
+    background: #0d4d91;
+    transition: all 0.8s ease-out;
+}
+
+.title {
+    font-size: 90px;
+    z-index: 10000;
+    color: #000;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 130%;
+    left: 80%;
+}

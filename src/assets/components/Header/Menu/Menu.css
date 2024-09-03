@@ -1,0 +1,22 @@
+.link {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 94px;
+    list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.link:hover {
+    color: #007AFF;
+    transition: all 0.75s ease-in-out;
+}
+
+.nav {
+    margin-top: 24px;
+    display: flex;
+    margin-bottom: 24px;
+}

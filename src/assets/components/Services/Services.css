@@ -1,0 +1,56 @@
+.service {
+    background: #F3FFFC;
+}
+
+.service-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 39px;
+    color: #000000;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.service-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 71px;
+    text-align: center;
+}
+
+.services-photos {
+display: flex;
+}
+
+.one {
+    float: left;
+    position: absolute;
+    left: 0;
+    margin-left: -470px;
+    margin-top: -120px;
+}
+
+.two {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin-right: -470px;
+    margin-top: -281px;
+}
+
+.services-block {
+    margin-top: 71px;
+}
+
+
+.service-item {
+    list-style-type: none;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
