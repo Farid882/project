@@ -14,10 +14,10 @@ export default function Asortiment() {
       img: "../../images/icons/1.png",
       id: "one",
     },
-    { title: "Копицентр", img: "../../images/icons/2.png", id: "two" },
+    { title: "Копицентр", img: "../../images/icons/3.png", id: "two" },
     {
       title: "Медицинские услуги",
-      img: "../../images/icons/3.png",
+      img: "../../images/icons/2.png",
       id: "three",
     },
     {
@@ -38,39 +38,68 @@ export default function Asortiment() {
   ];
   return (
     <div className="asort">
-
       <div className="flex">
-     
         <div className="services">
-        <h1 className="title animate__animated animate__backInDown">Точный перевод,<br /> без границ</h1>
+     
+            <h1 className="title tt">
+            Захватывающие истории для вашего бренда.
+            </h1>
+       
           <div className="service-f">
-            <div id="one" className="service animate__animated animate__backInLeft">
+            <div
+              id="one"
+              style={{background: "white"}}
+              className="service animate__animated animate__backInLeft"
+            >
               <h1>Нотариальное заверение</h1>
+
               <img className="images" src={ONE} alt="service" />
             </div>
-            <div id="two" className="service animate__animated animate__backInRight">
+            <div
+            style={{background: "white"}}
+              id="two"
+              className="service animate__animated animate__backInRight"
+            >
               <h1>Переводим документы на все языки</h1>
               <img className="images" src={TWO} alt="service" />
             </div>
           </div>
 
           <div className="service-y">
-            <div id="three" className="service animate__animated animate__backInLeft">
+            <div
+            style={{background: "white"}}
+              id="three"
+              className="service animate__animated animate__backInLeft"
+            >
               <h1>Копицентр</h1>
-              <img className="images " src={THREE} alt="service" />
+              <img className="images " src={TWO} alt="service" />
             </div>
-            <div id="four" className="service  animate__animated animate__backInRight">
+            <div
+              id="four"
+              style={{background: "white"}}
+              className="service  animate__animated animate__backInRight"
+            >
               <h1>Перевод текстов</h1>
-              <img className="images" src={FOUR} alt="service" />
+              <img className="images" src={FIVE} alt="service" />
             </div>
           </div>
           <div className="service-z">
-            <div id="five" className="service animate__animated animate__backInLeft">
+            <div
+              id="five"
+              style={{background: "white"}}
+              className="service animate__animated animate__backInLeft"
+            >
               <h1>Медицинские услуги</h1>
-              <img className="images" src={FIVE} alt="service" />
+              <img className="images" src={THREE} alt="service" />
             </div>
-            <button className="button-black animate__animated animate__backInUp">Обсудить детали</button>
-            <div id="six" className="service  animate__animated animate__backInRight">
+            <button className="button-black animate__animated animate__backInUp">
+              Обсудить детали
+            </button>
+            <div
+              id="six"
+              style={{background: "white"}}
+              className="service  animate__animated animate__backInRight"
+            >
               <h1>Помогаем в изучении русского языка</h1>
               <img className="images" src={SIX} alt="service" />
             </div>

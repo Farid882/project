@@ -1,0 +1,52 @@
+.title {
+    margin-top: 15px;
+    font-size: 40px;
+    justify-content: center;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text-rvp {
+position: fixed;
+font-size: 20px;
+font-weight: lighter;
+margin-left: 90px;
+}
+
+.hr-rvp {
+
+     text-align: center;
+      height: 1px;
+      color: #535353;
+}
+
+.title-text {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 94px;
+    list-style-type: none;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+
+   
+}
+
+.text-rvp {
+    position: relative;
+}
+
+.item_rvp {
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    text-decoration:wavy;
+    margin-left: 115px;
+}
+
+.rvvp {
+    margin-bottom: 20px;
+}

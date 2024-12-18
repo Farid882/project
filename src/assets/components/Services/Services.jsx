@@ -6,7 +6,7 @@ import TWO from "../../images/avatars/2.png";
 export default function Services() {
     const menu = [
         "✔ финансовых,",
-        "✔ оброзовательных,",
+        "✔ образовательных,",
         "✔ профессиональных",
     ]
   return (

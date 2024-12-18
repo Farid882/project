@@ -1,25 +1,39 @@
 import React from "react";
 import "../Menu/Menu.css";
-import RVP from "../../../MenuItem/RVP";
+
+import {
+
+  Link,
+
+} from "react-router-dom";
+
 
 export default function Menu() {
-  const menu = [
-    "Заказать перевод",
-    "Услуги и цены",
-    "Контакты",
-    {text: "РВП и ВНЖ", link: <RVP />},
-    "Получение визы",
-    "Поступление в ВУЗ",
-  ];
   return (
+
     <nav className="nav">
-      <ul>
-        {menu.map((item, index, l) => (
-          <a key={index} className="link" href={item.l}>
-            {item}
-          </a>
-        ))}
-      </ul>
+
+        <Link to="#translate" className="link">
+          Заказать перевод
+        </Link>
+        <a href="/pricelist" className="link">
+          Услуги и цены
+        </a>
+        <a href="#contacts" className="link">
+          Контакты
+        </a>
+        <Link to="/rvp" className="link">
+          РВП И ВНЖ
+        </Link>
+        <Link to="/" className="link">
+          Получение визы
+        </Link>
+        <a href="" className="link">
+          Консультация при поступлении в ВУЗ
+        </a>
+        <a className="link ml-5" target="_blank" href="https://www.kstu.ru/">
+          Какие документы нужны для поступления в вуз для иностранцев
+        </a>
     </nav>
   );
 }

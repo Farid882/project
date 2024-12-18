@@ -15,15 +15,12 @@ export default function Header() {
       <div class="overlay">
         <div className="container">
           <div className="flex">
-            <div className="icons">
-              <img src={PHONE} alt="" />
-              <img className="icon" src={SEND} alt="" />
-              <img className="icon" src={INST} alt="" />
-            </div>
             <div className="logo">
-              <h2 className="logo-text animate__animated animate__bounce">Бюро Переводов</h2>
-              <img src={LOGO} alt="" />
+              
+              <a href="/"><img src={LOGO} alt="" /></a>
             </div>
+           
+
             <div className="info">
               <h2 className="phone">+7 906 900 55 65</h2>
               <button className="btn">Связаться с нами</button>

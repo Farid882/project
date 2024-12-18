@@ -11,10 +11,12 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "git": "^0.1.5",
     "js-cookie": "^3.0.5",
     "mdb-react-ui-kit": "^8.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

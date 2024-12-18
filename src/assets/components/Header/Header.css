@@ -1,5 +1,10 @@
 .header {
-    margin-top: 15px;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 11111;
+    background: #ffffff;
 }
 * {
     margin: 0;
@@ -29,8 +34,7 @@ position: relative;
 
 .icons {
     
-    float: left;
-    margin-right: 510px;
+float: middle;
 }
 
 .icon {
@@ -43,15 +47,19 @@ position: relative;
 }
 
 .logo {
-    margin-right: 244px;
     font-family: "Inter", sans-serif;
-    color: #007AFF;
+    color: #5f9e34;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 700; 
+    display: block;
+
+    margin-right: auto;
+    margin-top: auto;
+    justify-content: left;
 }
 
 .logo img {
-    margin-left: 100px;
+    
     width: 98px;
     height: 91px;
 }
@@ -65,15 +73,18 @@ position: relative;
 }
 
 .btn {
-    background: #007AFF;
+    background: #5f9e34;
+    border: none;
     border-radius: 5px;
+    
     color: #fff;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    width: 163px;
-    height: 41px;
+    width: 203px;
+    height: 61px;
     margin-right: 40px;
+    margin-top: -10px;
 }
 
 .icons, .info, .btns {
@@ -82,7 +93,7 @@ position: relative;
 
 .hr {
     height: 4px;
-    background: #007AFF;
+    background: #5f9e34;
     width: 100%;
 margin-top: -5px;
 }
@@ -97,4 +108,23 @@ body {
   }
   .language__img {
     cursor: pointer;
+  }
+
+  .logo-text {
+    text-align: justify;
+    font-size: 28px;
+  }
+
+  .kstu {
+    color: #5f9e34;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    display: flex;
+  }
+
+  .ml-5 {
+    margin-left: -30px;
   }

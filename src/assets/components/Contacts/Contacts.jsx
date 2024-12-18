@@ -4,7 +4,7 @@ import "../Contacts/Contacts.css";
 
 export default function Contacts() {
   return (
-    <div className="back back-shadow">
+    <div id="contacts" className="back back-shadow">
       <div className="contacts-block animate__animated animate__backInUp">
         <h2 className="contacts-title">Заполните форму заявки,</h2>
         <h3 className="contacts-title-x2">и специалист с вами свяжется</h3>
