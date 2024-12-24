@@ -80,7 +80,7 @@ input:focus{outline: none;}
 .btn-checkbox {
     width: 870px;
     height: 61px;
-    background: #5f9e34;
+    background: #1a48d2;
     border-radius: 14px;
     text-align: center;
     color: #fff;
@@ -96,7 +96,7 @@ input:focus{outline: none;}
 }
 
 .checkbox-text-b {
-    color: #5f9e34;
+    color: #1a48d2;
     font-weight: black;
 }
 

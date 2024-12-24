@@ -3,7 +3,13 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
-import { Facebook, Instagram, Twitter } from "@mui/icons-material";
+import {
+  Facebook,
+  Instagram,
+  Twitter,
+  WhatsApp,
+  Telegram,
+} from "@mui/icons-material";
 import { Box } from "@mui/material";
 
 export default function Footer() {
@@ -12,7 +18,7 @@ export default function Footer() {
       component="footer"
       sx={{
         backgroundColor: (theme) =>
-          theme.palette.mode === "light"
+          theme.palette.mode === "dark"
             ? theme.palette.grey[200]
             : theme.palette.grey[800],
         p: 6,
@@ -22,18 +28,11 @@ export default function Footer() {
         <Grid container spacing={5}>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              Про нас
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="text.primary" gutterBottom>
               Контакты
             </Typography>
             <Typography variant="body2" color="text.secondary">
-            420029, Республика Татарстан (татарстан), г.о. Город Казань, г Казань, ул Александра Попова, д. 7/21, помещ. 2
+              420029, Республика Татарстан (татарстан), г.о. Город Казань, г
+              Казань, ул Александра Попова, д. 7/21, помещ. 2
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Email: info@example.com
@@ -44,10 +43,10 @@ export default function Footer() {
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              Follow Us
+              Следуйте за нами
             </Typography>
-            <Link href="https://www.facebook.com/" color="inherit">
-              <Facebook />
+            <Link href="https://www.telegram.com/" color="inherit">
+              <Telegram />
             </Link>
             <Link
               href="https://www.instagram.com/"
@@ -56,8 +55,9 @@ export default function Footer() {
             >
               <Instagram />
             </Link>
-            <Link href="https://www.twitter.com/" color="inherit">
-              <Twitter />
+
+            <Link href="https://wa.me/79172319395" color="inherit">
+              <WhatsApp />
             </Link>
           </Grid>
         </Grid>

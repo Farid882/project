@@ -12,22 +12,18 @@ import Menu from "./Menu/Menu";
 export default function Header() {
   return (
     <header className="header">
-      <div class="overlay">
+      <div className="overlay">
         <div className="container">
           <div className="flex">
             <div className="logo">
-              
-              <a href="/"><img src={LOGO} alt="" /></a>
+              <a href="/">
+                <img src={LOGO} alt="Логотип" />
+              </a>
             </div>
-           
-
+            <div className="title">Бюро переводов</div>
             <div className="info">
               <h2 className="phone">+7 906 900 55 65</h2>
               <button className="btn">Связаться с нами</button>
-            </div>
-            <div className="btns">
-              <img align="right" src={GLOBE} alt="globe" className="globe" />
-              <h2>RU</h2>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@
 
 .marquee {
     margin-top: 1170px;
-    background: #5f9e34;
+    background: #1a48d2;
     height: 50px;
     font-size: 29px;
     color: aliceblue;
@@ -27,7 +27,7 @@
 	position: relative;
 }
 .map-box { 
-    margin-top: 430px;
+    margin-top: 330px;
 	position: absolute;
 	top: 70px;
 	left: 20px; 

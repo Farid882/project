@@ -1,27 +1,29 @@
 .link {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    margin-left: 94px;
+    margin: 0 15px; /* Увеличиваем отступы между ссылками */
     list-style-type: none;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     color: black;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
 }
 
 .link:hover {
-    color: #5f9e34;
+    color: #1a48d2;
     transition: all 0.75s ease-in-out;
 }
 
 .nav {
-    margin-top: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     display: flex;
-    margin-bottom: 24px;
+    justify-content: space-between; /* Распределяем элементы по всей ширине */
+    padding: 0 20px; /* Добавляем отступы слева и справа */
 }
-
 
 html {
     scroll-behavior: smooth;
-  }
+}

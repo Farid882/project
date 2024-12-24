@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import "./style.css";
+import IMAGE from '../images/Flag_of_Turkmenistan.svg.png'
 
 export default function RVP() {
   const menuData = [
@@ -25,6 +26,7 @@ export default function RVP() {
   return (
     <div>
       <Header />
+      <img className="image-rvp" src={IMAGE}alt="" />
       <h1 className="title">
         Общая информация о правилах получения визы в Туркменистан
       </h1>
@@ -80,6 +82,8 @@ export default function RVP() {
         <li className="item_rvp">для пенсионеров, ксерокопию пенсионного удостоверения</li>
         <li className="item_rvp">две цветные новые фотокарточки размером 3х4. </li>
       </ul>
+
+      <h1>взято с сайта <a target="_blank" href="https://russia.tmembassy.gov.tm/ru/consular-services/obshchaya-informatsiya-o-pravilakh-polucheniya-vizy-v-turkmenistan">посольства Туркменистана</a></h1>
       <Footer />
     </div>
   );
